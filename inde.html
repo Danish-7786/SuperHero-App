@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>API</title>
+</head>
+<body>
+    <img class ="bg-image" src="https://gentwenty.com/wp-content/uploads/2013/07/Superheroes.jpg.webp" alt="">
+    <h1>Super Hero App</h1>
+    <p>You can search for a super hero like "batman" or "spiderman" or you can generate random hero </p>
+    <div class="input-field">
+  <input type="text"
+  id="searchBar"
+  onkeyup="getHeroByName()"
+   >
+
+       <button id="search">Search</button>
+       <button id="btn">Random Generate Hero</button>
+    </div>
+    <div id="heroImgDiv"><img src="" alt=""></div>
+    <div id="hero-name"><h3>Hero Name</h3></div>
+    <div id="powerStat"><h3>Power stats</h3></div>
+
+
+</body>
+<script src="./app.js"></script>
+</html>
